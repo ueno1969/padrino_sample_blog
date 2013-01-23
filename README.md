@@ -1,4 +1,14 @@
 padrino_sample_blog
 ===================
 
-padrino sample
+- start padrino
+
+  ~~~
+  padrino s
+  ~~~
+
+- start padrino with debugger
+
+  ~~~
+  BUNDLE_ENV=debug padrino s
+  ~~~
