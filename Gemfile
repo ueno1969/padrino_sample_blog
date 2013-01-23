@@ -18,6 +18,11 @@ gem 'sqlite3'
 gem 'shoulda', :group => "test"
 gem 'rack-test', :require => "rack/test", :group => "test"
 
+gem 'rb-readline', :group => "development"
+
+# For debugger
+gem 'debugger', :group => "debug"
+
 # Padrino Stable Gem
 gem 'padrino', '0.10.7'
 

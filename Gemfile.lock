@@ -16,6 +16,14 @@ GEM
     bourne (1.1.2)
       mocha (= 0.10.5)
     builder (3.0.4)
+    columnize (0.3.6)
+    debugger (1.2.4)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.1.1)
+      debugger-ruby_core_source (~> 1.1.7)
+    debugger-linecache (1.1.2)
+      debugger-ruby_core_source (>= 1.1.1)
+    debugger-ruby_core_source (1.1.7)
     haml (3.1.7)
     http_router (0.10.2)
       rack (>= 1.0.0)
@@ -64,6 +72,7 @@ GEM
     rack-test (0.6.2)
       rack (>= 1.0)
     rake (10.0.3)
+    rb-readline (0.4.2)
     sass (3.2.5)
     shoulda (3.3.2)
       shoulda-context (~> 1.0.1)
@@ -93,10 +102,12 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  debugger
   haml
   padrino (= 0.10.7)
   rack-test
   rake
+  rb-readline
   sass
   shoulda
   sinatra-flash
